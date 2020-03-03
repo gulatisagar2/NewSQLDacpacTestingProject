@@ -56,9 +56,11 @@
   <Import Condition="'$(SQLDBExtensionsRefPath)' == ''" Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
   <ItemGroup>
     <Folder Include="Properties" />
+    <Folder Include="Snapshots" />
   </ItemGroup>
   <ItemGroup>
     <None Include="NewSQLDacpacTestingProject.publish.xml" />
     <None Include="NewSQLDacpacTestingProject_1.publish.xml" />
+    <None Include="Snapshots\NewSQLDacpacTestingProject_20200303_17-22-51.dacpac" />
   </ItemGroup>
 </Project>
